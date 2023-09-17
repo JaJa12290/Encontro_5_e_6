@@ -2,7 +2,7 @@ package dominio;
 
 import java.time.LocalDate;
 
-public abstract class veiculoComum extends veiculoIdentificador{
+public abstract class veiculoComum extends veiculoIdentificador implements IImpressao{
     protected String modelo;
     protected String cor;
     protected LocalDate anoModelo;

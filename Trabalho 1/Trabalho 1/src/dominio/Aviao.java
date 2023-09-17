@@ -22,5 +22,24 @@ public class Aviao extends veiculoAereo{
                 qtdeMotores, qtdeOcupantes, codigoCauda, porte);
         this.dataPartida = dataPartida;
     }
+
+    @Override
+    public void Imprimir() {
+       System.out.println("Codigo: " + this.codigo);
+       System.out.println("Codigo cauda: " + this.codigoCauda);
+       System.out.println("Modelo: " + this.modelo);
+       System.out.println("Ano do Modelo: " + this.anoModelo);
+       System.out.println("Ano de Fabricacao: " + this.anoFabricacao);
+       System.out.println("Peso Liquido: " + this.pesoLiquido);
+       System.out.println("Assentos: " + this.assentos);
+       System.out.println("Rodas: " + this.rodas);
+       System.out.println("Fabricante: " + this.fabricante);
+       System.out.println("Tipo de Combustivel: " + this.tipoCombustivel);
+       System.out.println("Quantidade de Mototores: " + this.qtdeMotores);
+       System.out.println("Quantidade de Ocupantes: " + this.qtdeOcupantes);
+       System.out.println("Cor: " + this.cor);
+       System.out.println("Porte: " + this.porte);
+       System.out.println("Data de Partida: " + this.dataPartida); 
+    }
     
 }
